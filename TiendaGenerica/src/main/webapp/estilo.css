@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+.body{
+	margin: 0;
+	padding: 0;
+	background: url("Logo.png") ;
+	background-size : repeat;
+	font-family: sans-serif;
+	height: 80vh;
+	margin: 0;
+}
+.titulo{
+	margin : 0;
+	padding : 0 0 20px;
+	text-align:center;
+	font-size : 40px;
+	color : #ffffff;
+}
+.cuadro{
+	width: 300px;
+	background: #0f0f0f;
+	opacity: 0.95;
+	color: #ffffff;
+	top:40%;
+	left:40%;
+	box-sizing : border-box;
+	margin: auto;
+	margin-top: 90px;
+	padding: 50px 20px;
+}
+.caja{
+	width: 80%;
+	margin-bottom : 20px;
+	outline : none;
+	color : #000;
+	font-size: 16px;
+	
+}
+.cuadro input[type="submit"]:hover{
+	background: #ACF2F2;
+}
+.boton{
+	width: 50%;
+	margin-bottom : 70px;
+	border : none;
+	height: 40px;
+	background: #8DD5F2;
+	color :#000;
+	font-size : 18px;
+	border-radius: 20px;
+}
+
+.cuadro a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 25px;
+	color: darkgrey;
+}
+.cuadro a:hover{
+	color:#fff;
+	
+}
+@media(min-width:700px)
+{
+	.cuadro{
+	margin:auto;
+	width: 300px;
+	margin-top:150px;
+	border-radius: 2%;
+	}
+}
+
