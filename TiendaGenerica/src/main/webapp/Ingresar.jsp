@@ -14,18 +14,18 @@
 		<div class="cuadro" align="center">
 			<h1 class="titulo">Ingresar</h1>
 			<br>
-			<form>
+			<form method="get" action="./servlet">
 				<i class="fas fa-user"></i>
-				<input class="caja" type = "text" placeholder = "Usuario"/><br>
+				<input class="caja" type = "text" placeholder = "Usuario" name ="usuario"/><br>
 				<br>
 				<i class="fas fa-key"></i>
-				<input class="caja" type = "password" placeholder = "Contraseña"/><br>
+				<input class="caja" type = "password" placeholder = "Contraseña" name="contraseña"/><br>
 				<br>	
 				<input class="boton" type = "submit"  value = "Entrar">
 				<br>
 				<a href ="#">he olvidado mi contraseña</a>
 				<br>
-				<a href ="#">no tengo cuenta</a>		
+				<a href ="index.jps">no tengo cuenta</a>		
 			</form>
 		</div>
 	</body>

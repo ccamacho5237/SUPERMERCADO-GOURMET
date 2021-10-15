@@ -6,7 +6,7 @@ import java.sql.*;
 public class ConexionBD {
 
 	// atributos
-	private String bd = "tiendagenerica";   
+	private String bd = "supermercadogourmet";   
 	private String login = "root";   
 	private String password = "1234";   
 	private String url = "jdbc:mariadb://localhost:3306/" + bd;
