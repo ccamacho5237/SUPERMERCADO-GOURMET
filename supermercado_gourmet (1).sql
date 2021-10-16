@@ -1,5 +1,5 @@
-create database supermercado_gourmet;
-use supermercado_gourmet;
+create database esquema_g75_e31;
+use esquema_g75_e31;
 
 create table usuarios (
 cedula_usuario bigint(20) primary key not null,
