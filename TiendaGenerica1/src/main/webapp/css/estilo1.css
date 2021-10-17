@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg.jpeg);
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.avatar {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;
+	left: calc(50% - 60px);
+}
+
+.form-register {
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+	margin: 30px;
+	padding: 0 0 10px;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.controls {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 14px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: white;
+
+}
+
+.form-register p {
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.form-register a {
+	color: white;
+	text-decoration: none;
+}
+
+.form-register a:hover {
+	color: #ffc107;
+	text-decoration: underline;
+}
+
+.form-register button[type="submit"] {
+	
+	width: 80px;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 20px;
+	margin: 30px 0 20px;	
+}
+
+.form-register button[type="submit"]:hover {
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
