@@ -32,7 +32,7 @@
 			<img src="img/triste.jpg" class="avatar" alt="Avatar Image">
 
 		</div>
-		<h4>ERROR REGISTRO</h4>
+		<h4>ERROR DE REGISTRO</h4>
 
 		
 

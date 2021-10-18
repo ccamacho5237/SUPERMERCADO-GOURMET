@@ -37,15 +37,13 @@
 
 		<input class="controls" type="text" name="nombre_usuario"
 			id="nombre_usuario" placeholder="Ingresar Nombre"> <input
-			class="controls" type="text" name="apellido_usuario"
-			id="apellido_usuario" placeholder="Ingresar Apellido"> <input
 			class="controls" type="text" name="cedula_usario" id="cedula_usuario"
 			placeholder="Ingresar # Cedula"> <input class="controls"
 			type="email" name="email_usuario" id="email_usuario"
 			placeholder="Ingresar  Correo"> <input class="controls"
-			type="text" name="usuario" id="usuario"
+			type="text" name="rol_usuario" id="usuario"
 			placeholder="Ingresar Usuario"> <input class="controls"
-			type="text" name="contraseña" id="contraseña"
+			type="text" name="password" id="contraseña"
 			placeholder="Ingresar Contraseña">
 		<p>
 			Estoy de acuerdo con <a href="#">Terminos y Condiciones</a>

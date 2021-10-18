@@ -22,6 +22,7 @@
 					href="#" class="nav-enlace"> Ventas</a> <a href="#"
 					class="nav-enlace"> Reportes</a> <a href="#" class="nav-enlace">
 					SALIR</a>
+					
 			</nav>
 
 		</div>
@@ -62,4 +63,5 @@
 	</section>
 
 </body>
+
 </html>

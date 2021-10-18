@@ -36,7 +36,7 @@
 
 		<input class="controls" type="text" name="id" id="id"
 			placeholder="Ingresar Id"> <input class="controls"
-			type="text" name="rol" id="rol" placeholder="Ingresar Role">
+			type="text" name="rol" id="rol" placeholder="Ingresar Rol">
 
 		<table>
 			<tr>
