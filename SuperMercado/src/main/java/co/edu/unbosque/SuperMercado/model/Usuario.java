@@ -33,6 +33,7 @@ public class Usuario {
 	public long getCedula_usuario() {
 		return cedula_usuario;
 	}
+	
 	public void setCedula_usuario(long cedula_usuario) {
 		this.cedula_usuario = cedula_usuario;
 	}
