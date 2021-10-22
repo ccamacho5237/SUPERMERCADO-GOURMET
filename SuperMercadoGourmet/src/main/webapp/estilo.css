@@ -1,110 +1,76 @@
 @charset "ISO-8859-1";
 
-* {
-	padding: 0;
-	margin: 0;
+*{
+  padding: 0;
+  margin: 0;
 }
-
-body {
+body{
 	margin: 0;
 	padding: 0;
 	background: url("Logo.png");
-	background-size: repeat;
+	background-size : repeat;
 	font-family: sans-serif;
-	height: 80vh;
+	height: 100vh;
 	margin: 0;
 }
-
-nav {
-	background: rgba(151, 214, 255, 10);
-	padding: 10px 30px;
+.titulo{
+	margin : 0;
+	padding : 0 0 20px;
+	text-align:center;
+	font-size : 40px;
+	color : #ffffff;
 }
-
-nav ul {
-	list-style: none;
-	overflow: hidden; /* Limpiamos errores de float */
-}
-
-nav ul li {
-	display: initial-block;
-	padding: 10px 20px;
-	float: left;
-	font-family: Arial, sans-serif;
-	font-size: 20px;
-}
-
-nav ul li a {
-	display: block;
-	/* Convertimos los elementos a en elementos bloque para manipular el padding */
-	padding: 10px;
-	color: #fff;
-	text-decoration: none;
-}
-
-nav ul li:hover {
-	background: #3ead47;
-}
-
-.titulo {
-	margin: 0;
-	padding: 0 0 20px;
-	text-align: center;
-	font-size: 40px;
-	color: #ffffff;
-}
-
-.cuadro {
+.cuadro{
 	width: 300px;
 	background: #0f0f0f;
 	opacity: 0.95;
 	color: #ffffff;
-	top: 40%;
-	left: 40%;
-	box-sizing: border-box;
+	top:50%;
+	left:40%;
+	box-sizing : border-box;
 	margin: auto;
-	margin-top: 90px;
+	margin-top: 100px;
 	padding: 50px 20px;
 }
-
-.caja {
+.caja{
 	width: 80%;
-	margin-bottom: 20px;
-	outline: none;
-	color: #000;
+	margin-bottom : 25px;
+	outline : none;
+	color : #000;
 	font-size: 16px;
+	
 }
-
-.cuadro input[type="submit"]:hover {
+.cuadro input[type="submit"]:hover{
 	background: #ACF2F2;
 }
-
-.boton {
+.boton{
 	width: 50%;
-	margin-bottom: 70px;
-	border: none;
+	margin-bottom : 70px;
+	border : none;
 	height: 40px;
 	background: #8DD5F2;
-	color: #000;
-	font-size: 18px;
+	color :#000;
+	font-size : 18px;
 	border-radius: 20px;
 }
 
-.cuadro a {
+.cuadro a{
 	text-decoration: none;
 	font-size: 15px;
 	line-height: 25px;
 	color: darkgrey;
 }
-
-.cuadro a:hover {
-	color: #fff;
+.cuadro a:hover{
+	color:#fff;
+	
 }
-
-@media ( min-width :700px) {
-	.cuadro {
-		margin: auto;
-		width: 300px;
-		margin-top: 150px;
-		border-radius: 2%;
+@media(min-width:700px)
+{
+	.cuadro{
+	margin:auto;
+	width: 300px;
+	margin-top:150px;
+	border-radius: 2%;
 	}
 }
+
